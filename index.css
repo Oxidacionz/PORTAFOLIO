@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Press+Start+2P&display=swap');
+
+@theme {
+    --color-primary: #0ea5e9;
+    --color-secondary: #6366f1;
+
+    --animate-spin-slow: spin 12s linear infinite;
+    --animate-float: float 6s ease-in-out infinite;
+    --animate-pixel-float: pixelFloat 4s steps(4) infinite;
+    --animate-fly-diagonal: flyDiagonal 25s linear infinite;
+    --animate-fly-horizontal: flyHorizontal 35s linear infinite;
+
+    @keyframes float {
+
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(-20px);
+        }
+    }
+
+    @keyframes pixelFloat {
+
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+
+    @keyframes flyDiagonal {
+        0% {
+            transform: translate(-10vw, 110vh) rotate(-45deg) scale(0.8);
+        }
+
+        100% {
+            transform: translate(110vw, -10vh) rotate(-45deg) scale(0.8);
+        }
+    }
+
+    @keyframes flyHorizontal {
+        0% {
+            transform: translateX(-20vw);
+        }
+
+        100% {
+            transform: translateX(120vw);
+        }
+    }
+}
+
+@layer base {
+    body {
+        font-family: 'Inter', sans-serif;
+    }
+}
+
+@layer utilities {
+    .pixel-font {
+        font-family: 'Press Start 2P', cursive;
+    }
+
+    /* Pixel Art Rendering utils */
+    .pixelated {
+        image-rendering: pixelated;
+        image-rendering: -moz-crisp-edges;
+        image-rendering: crisp-edges;
+        shape-rendering: crispEdges;
+        /* Important for SVGs */
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: rgba(0, 0, 0, 0.1);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #0ea5e9;
+        border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #0284c7;
+    }
+}
