@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://oxidacionz.github.io/port2",
+  "homepage": "https://oxidacionz.github.io/PORTAFOLIO",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
