@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 Portafolio de Joseph Bracho
 
 <div align="center">
@@ -13,6 +14,9 @@
 </div>
 
 ---
+=======
+# Portafolio de Joseph Bracho
+>>>>>>> 66c189a041e4f1b10aff53bab2ded5c494bfb1e7
 
 ## 👨‍💻 Sobre Mí
 

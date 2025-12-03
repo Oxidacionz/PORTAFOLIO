@@ -69,10 +69,12 @@ export const Hero: React.FC = () => {
           <p className="text-xl md:text-2xl font-semibold text-sky-500 dark:text-sky-400 mb-4">
             Desarrollador Full Stack
           </p>
-          <p className="text-gray-600 dark:text-gray-300 max-w-md mb-8 leading-relaxed font-medium">
-            Creo experiencias digitales modernas, limpias y con una sensación fresca y abierta.
-            Apasionado por construir aplicaciones completas, eficientes y hermosas.
-          </p>
+          <div className="bg-white/70 dark:bg-gray-800/70 p-6 rounded-2xl shadow-lg backdrop-blur-sm max-w-md mb-8">
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed font-medium">
+              Creo experiencias digitales modernas, limpias y con una sensación fresca y abierta.
+              Apasionado por construir aplicaciones completas, eficientes y hermosas.
+            </p>
+          </div>
 
           <div className="flex flex-wrap justify-center gap-4">
             <a href="https://github.com/Oxidacionz" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors shadow-lg hover:shadow-xl">
