@@ -3,13 +3,13 @@
 
 <div align="center">
 
-[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://oxidacionz.github.io/PORTAFOLIO/)
+[![Live Demo](#)](#)
 [![GitHub](https://img.shields.io/badge/GitHub-Oxidacionz-181717?logo=github)](https://github.com/Oxidacionz)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-josephbrachoxz-0077B5?logo=linkedin)](https://www.linkedin.com/in/josephbrachoxz/)
 
 **Desarrollador Full Stack | React • TypeScript • Python**
 
-[Ver Demo](https://oxidacionz.github.io/PORTAFOLIO/) • [Reportar Bug](https://github.com/Oxidacionz/PORTAFOLIO/issues) • [Contacto](mailto:josephbrachovillanueva2@gmail.com)
+[Ver Demo](#) • [Reportar Bug](https://github.com/Oxidacionz/PORTAFOLIO/issues) • [Contacto](mailto:josephbrachovillanueva2@gmail.com)
 
 </div>
 
@@ -56,7 +56,7 @@
 
 ### Herramientas
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=github&logoColor=white)
+<!-- GitHub Pages badge removed -->
 ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 
 ---
@@ -89,7 +89,7 @@ npm run dev
 npm run dev      # Inicia servidor de desarrollo
 npm run build    # Construye para producción
 npm run preview  # Previsualiza build de producción
-npm run deploy   # Despliega a GitHub Pages
+<!-- deploy script removed; use your CI or manual publish -->
 ```
 
 ---
@@ -133,7 +133,7 @@ Sistema de contacto mejorado con:
 
 ## 🌐 Demo en Vivo
 
-Visita mi portafolio en: **[oxidacionz.github.io/PORTAFOLIO](https://oxidacionz.github.io/PORTAFOLIO/)**
+Visita mi portafolio en: **[Tu URL de despliegue]**
 
 ---
 
