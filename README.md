@@ -111,6 +111,23 @@ Permisos y ajustes en GitHub:
 
 Si quieres que despliegue en otra rama o bajo otra configuración dime y lo ajusto.
 
+---
+
+## ✅ Checklist final antes del despliegue
+
+Sigue esta lista para dejar el repositorio en un estado cercano al 100% antes de publicar visualmente:
+
+- [ ] Confirmar que la rama de despliegue es `master` (o cambiar en `.github/workflows/deploy.yml`).
+- [ ] Revisar GitHub → Settings → Pages: permitir que Actions publique y confirmar `pages:write` permisos en Actions settings.
+- [ ] (Opcional) Añadir `public/CNAME` con tu dominio y asegurarte de que el DNS apunta al dominio de GitHub Pages.
+- [ ] Verificar que `public/404.html` funciona correctamente para rutas de SPA.
+- [ ] Confirmar `public/robots.txt` y `public/sitemap.xml` (ya añadidos) — si quieres más rutas, puedo generarlas automáticamente.
+- [ ] Revisar logs de GitHub Actions tras el push para asegurarse de que `npm run typecheck` y `npm run build` pasan correctamente.
+- [ ] Probar la URL de Pages (https://oxidacionz.github.io/PORTAFOLIO/) y revisar que no hay 404s para assets en la consola del navegador.
+- [ ] (Opcional) Añadir `tsc --noEmit` como check obligatorio en CI branch protection o pull request checks.
+
+Si quieres que ejecute alguno de estos pasos automáticamente (por ejemplo generar un `sitemap` con todas las rutas del proyecto, añadir `CNAME` con tu dominio, o incluir ESLint en CI), dime cuál y lo hago.
+
 ### Scripts Disponibles
 
 ```bash
