@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://oxidacionz.github.io/PORTAFOLIO/sitemap.xml

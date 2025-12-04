@@ -101,6 +101,8 @@ Este repositorio incluye un workflow de GitHub Actions que construye y despliega
 
 - El workflow instala dependencias (`npm ci`), ejecuta `npm run typecheck` (verificación de tipos) y `npm run build`, y finalmente publica la carpeta `dist` en Pages.
 - Para usar un dominio personalizado, añade un archivo `CNAME` con tu dominio dentro de la carpeta `public/` y súbelo al repositorio (será copiado a `dist/`).
+	- He incluido un `public/CNAME.example` como plantilla. Renombralo a `CNAME` y coloca tu dominio (por ejemplo `midominio.com`) si quieres usar un dominio personalizado.
+	- Añadí `public/404.html` para facilitar el comportamiento SPA en GitHub Pages (redirige al `index` cuando hay rutas de cliente). También se genera `public/robots.txt`.
 - Si prefieres desplegar con la herramienta local `gh-pages`, existe el script `npm run deploy` que usa `gh-pages -d dist`.
 
 Permisos y ajustes en GitHub:
