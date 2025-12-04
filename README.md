@@ -12,11 +12,21 @@
 [Ver Demo](https://oxidacionz.github.io/PORTAFOLIO/) • [Reportar Bug](https://github.com/Oxidacionz/PORTAFOLIO/issues) • [Contacto](mailto:josephbrachovillanueva2@gmail.com)
 
 </div>
+# 🚀 Portafolio de Joseph Bracho
+
+<div align="center">
+
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://oxidacionz.github.io/PORTAFOLIO/)
+[![GitHub](https://img.shields.io/badge/GitHub-Oxidacionz-181717?logo=github)](https://github.com/Oxidacionz)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-josephbrachoxz-0077B5?logo=linkedin)](https://www.linkedin.com/in/josephbrachoxz/)
+
+**Desarrollador Full Stack | React • TypeScript • Python**
+
+[Ver Demo](https://oxidacionz.github.io/PORTAFOLIO/) • [Reportar Bug](https://github.com/Oxidacionz/PORTAFOLIO/issues) • [Contacto](mailto:josephbrachovillanueva2@gmail.com)
+
+</div>
 
 ---
-=======
-# Portafolio de Joseph Bracho
->>>>>>> 66c189a041e4f1b10aff53bab2ded5c494bfb1e7
 
 ## 👨‍💻 Sobre Mí
 
@@ -82,6 +92,22 @@ npm install
 # Ejecutar en modo desarrollo
 npm run dev
 ```
+
+---
+
+## 📦 Despliegue en GitHub Pages (Automatizado)
+
+Este repositorio incluye un workflow de GitHub Actions que construye y despliega el sitio a GitHub Pages cuando se hace push a la rama `master`.
+
+- El workflow instala dependencias (`npm ci`), ejecuta `npm run typecheck` (verificación de tipos) y `npm run build`, y finalmente publica la carpeta `dist` en Pages.
+- Para usar un dominio personalizado, añade un archivo `CNAME` con tu dominio dentro de la carpeta `public/` y súbelo al repositorio (será copiado a `dist/`).
+- Si prefieres desplegar con la herramienta local `gh-pages`, existe el script `npm run deploy` que usa `gh-pages -d dist`.
+
+Permisos y ajustes en GitHub:
+- En `Settings → Pages` revisa que la fuente está configurada según tu preferencia (Actions / branch). El workflow actual publica usando Pages Actions.
+- El workflow requiere los permisos de `pages: write` para publicar; la action usa `GITHUB_TOKEN` automáticamente.
+
+Si quieres que despliegue en otra rama o bajo otra configuración dime y lo ajusto.
 
 ### Scripts Disponibles
 
